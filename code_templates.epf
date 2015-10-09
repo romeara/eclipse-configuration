@@ -1,0 +1,21 @@
+# @title Ryan's Code Templates
+# @description Adds slf4j and unimplemented test templates
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Oct 09 11:18:12 EDT 2015
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.fieldPrefixes=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.localSuffixes=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.staticFinalFieldPrefixes=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.staticFieldPrefixes=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.argumentSuffixes=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.staticFinalFieldSuffixes=
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.gettersetter.use.is=true
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.fieldSuffixes=
+file_export_version=3.0
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.localPrefixes=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.staticFieldSuffixes=
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.overrideannotation=true
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.argumentPrefixes=
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.exception.name=e
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="Inserts a static slf4j logger definition" enabled\="true" name\="slf4j-logger">${\:import(org.slf4j.Logger,org.slf4j.LoggerFactory,org.slf4j.Logger,org.slf4j.Logger)}/** Logger reference to output information to the application log files */\nprivate static final Logger logger \= LoggerFactory.getLogger(${enclosing_type}.class);</template><template autoinsert\="true" context\="java" deleted\="false" description\="Inserts an unimplemented test which automatically fails" enabled\="true" name\="test-unimplemented">${\:import(org.testng.Assert, org.testng.annotations.Test)}@Test\npublic void ${test}() throws Exception {    \n\t// TODO ${user} - unimplemented test ${test}    \n\tAssert.fail("${test} is not implemented");\n}\n${cursor}</template></templates>

@@ -1,0 +1,8 @@
+# @title Ryan's Type Exclusions
+# @description Ste of type exclusions for common packages which have classes with the same name as more preferrable ones
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Oct 09 11:13:19 EDT 2015
+file_export_version=3.0
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.typefilter.enabled=com.beust.jcommander.*;com.sun.org.apache.*;org.testng.collections.*;org.testng.internal.*;

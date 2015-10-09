@@ -1,0 +1,14 @@
+{
+  type : 'com.google.eclipse.mechanic.UriTaskProviderModel',
+  metadata : {
+    name: 'Ryan OMeara Workspace Mechanic Tasks',
+    description: 'Ryans tasks for the Workspace Mechanic of Eclipse',
+    contact: 'romeara@blackducksoftware.com'
+  },  
+  tasks: [
+	'code_templates.epf',
+	'new_method_unsupported.epf',
+	'onsave_conventions.epf',
+	'type_filters.epf'
+  ]
+}
