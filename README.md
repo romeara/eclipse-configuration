@@ -11,9 +11,9 @@ The tasks provided by ryan-settings.json do the following
 Adds two code templates to the set of standard insertable templates:
 
 * slf4j-logger
-  * Inserts a static slf4j logger instance statement into the file
+   * Inserts a static slf4j logger instance statement into the file
 * test-unimplemented
-  * Inserts a TestNG test with an Assert.fail() as its content (prevents false passing, unimplemented tests)
+   * Inserts a TestNG test with an Assert.fail() as its content (prevents false passing, unimplemented tests)
 
 ## new_method_unsupported.epf
 
@@ -22,6 +22,7 @@ Changes the default code tempale for generated methods from a TODO and standard 
 ## type_filters.epf
 
 Adds entries to the ignore set for suggested imports for the following packages:
+
 * com.beust.jcommander.*
 * com.sun.org.apache.*
 * org.testng.collections.*
