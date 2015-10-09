@@ -9,6 +9,7 @@
 	'code_templates.epf',
 	'new_method_unsupported.epf',
 	'onsave_conventions.epf',
-	'type_filters.epf'
+	'type_filters.epf',
+	'window_focus.epf'
   ]
 }

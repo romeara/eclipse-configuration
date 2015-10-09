@@ -1,0 +1,13 @@
+# @title Ryan's Output Window Settings
+# @description Prevent console, servers, and TestNG from stealing focus when task is done. Set console buffer to double size
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Fri Oct 09 11:33:53 EDT 2015
+/instance/org.testng.eclipse/showViewWhenTestComplete=false
+file_export_version=3.0
+/instance/org.eclipse.debug.ui/Console.lowWaterMark=160000
+/instance/org.eclipse.wst.server.ui/show-on-activity=false
+/instance/org.eclipse.debug.ui/Console.highWaterMark=168000
+/instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnOut=false
+/instance/org.eclipse.debug.ui/DEBUG.consoleOpenOnErr=false
