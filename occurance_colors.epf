@@ -1,0 +1,12 @@
+# @title Occurances Color Adjustment
+# @description Changes the occurances, write occurances, and search hit editor highlight colors to be more visible
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Thu Oct 22 13:40:45 EDT 2015
+/instance/org.eclipse.ui.editors/occurrenceIndicationColor=115,210,22
+file_export_version=3.0
+/default/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionBackground=240,119,70
+/instance/org.eclipse.ui.editors/searchResultIndicationColor=114,159,207
+/default/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground=255,255,255
+/instance/org.eclipse.ui.editors/writeOccurrenceIndicationColor=193,125,17
