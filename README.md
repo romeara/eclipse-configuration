@@ -31,3 +31,15 @@ Adds entries to the ignore set for suggested imports for the following packages:
 ## window_focus.epf
 
 Sets the Servers, TestNG, and Console windows to not be forcibly brought to the top of a multi-window set when they complete a task. Also doubles the default number of lines kept in the console from 8000 to 16000
+
+# Additional Files
+
+There are few other Eclipse files available
+
+## dictionary
+
+The file in this directory can be configured as the custom Eclipse dictionary so it will stop flagging certain things as mispelled
+
+## templates
+
+The file(s) in this directory can be imported as code templates - the about task does not always work
