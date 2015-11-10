@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Inserts unimplemented exception" enabled="true" name="unimplemented">// ${todo} Auto-generated function stub
+throw new UnsupportedOperationException("${enclosing_type}.${enclosing_method} is not yet implemented");</template></templates>
