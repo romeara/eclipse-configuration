@@ -1,0 +1,11 @@
+# @title TODO Task Tag
+# @description Add a definition for TODO followed by username at high priority
+# @task_type LASTMOD
+#
+# Created by the Workspace Mechanic Preference Recorder
+#Wed Aug 17 16:20:53 EDT 2016
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskPriorities=NORMAL,HIGH,NORMAL,HIGH
+file_export_version=3.0
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskTags=TODO,FIXME,XXX,TODO romeara
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskCaseSensitive=enabled
+/instance/org.eclipse.wst.jsdt.web.core/jspIndexState=1
