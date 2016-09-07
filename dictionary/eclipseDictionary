@@ -62,3 +62,5 @@ restlet
 remidation
 endpoints
 endpoint
+guava
+mockito

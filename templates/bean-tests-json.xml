@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="bean-tests-json">${:import(org.testng.Assert, org.testng.annotations.Test)}@Test
+public void getTest() throws Exception {
+	// ${todo} ${user} - unimplemented test getTest
+	Assert.fail("getTest is not implemented");
+}
+
+@Test
+public void hashCodeEqualWhenDataEqual() throws Exception {
+	// ${todo} ${user} - unimplemented test hashCodeEqualWhenDataEqual
+	Assert.fail("hashCodeEqualWhenDataEqual is not implemented");
+}
+
+@Test
+public void equalsNull() throws Exception {
+	// ${todo} ${user} - unimplemented test equalsNull
+	Assert.fail("equalsNull is not implemented");
+}
+
+@Test
+public void equalsDifferentClass() throws Exception {
+	// ${todo} ${user} - unimplemented test equalsDifferentClass
+	Assert.fail("equalsDifferentClass is not implemented");
+}
+
+@Test
+public void equalsSelf() throws Exception {
+	// ${todo} ${user} - unimplemented test equalsSelf
+	Assert.fail("equalsSelf is not implemented");
+}
+
+@Test
+public void equalsDifferentData() throws Exception {
+	// ${todo} ${user} - unimplemented test equalsDifferentData
+	Assert.fail("equalsDifferentData is not implemented");
+}
+
+@Test
+public void equalsSameData() throws Exception {
+	// ${todo} ${user} - unimplemented test equalsSameData
+	Assert.fail("equalsSameData is not implemented");
+}
+
+@Test
+public void serialize() throws Exception {
+	// ${todo} ${user} - unimplemented test serialize
+	Assert.fail("serialize is not implemented");
+}
+${cursor}</template></templates>
