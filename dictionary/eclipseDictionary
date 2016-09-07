@@ -55,3 +55,5 @@ versioned
 chunked
 multi
 href
+guava
+mockito
