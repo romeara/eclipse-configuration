@@ -1,42 +1,81 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="bean-tests">${:import(org.testng.Assert, org.testng.annotations.Test)}@Test
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Standard bean testing setup" enabled="true" name="bean-tests">${:import(org.testng.Assert, org.testng.annotations.Test)}@Test
 public void getTest() throws Exception {
 	// ${todo} ${user} - unimplemented test getTest
 	Assert.fail("getTest is not implemented");
+
+	${var1} result = null;
 }
 
 @Test
 public void hashCodeEqualWhenDataEqual() throws Exception {
 	// ${todo} ${user} - unimplemented test hashCodeEqualWhenDataEqual
 	Assert.fail("hashCodeEqualWhenDataEqual is not implemented");
+
+	${var1} result1 = null;
+	${var1} result2 = null;
+
+	Assert.assertEquals(result1.hashCode(), result2.hashCode());
 }
 
 @Test
 public void equalsNull() throws Exception {
 	// ${todo} ${user} - unimplemented test equalsNull
 	Assert.fail("equalsNull is not implemented");
+
+	${var1} result = null;
+
+	Assert.assertFalse(result.equals(null));
 }
 
 @Test
 public void equalsDifferentClass() throws Exception {
 	// ${todo} ${user} - unimplemented test equalsDifferentClass
 	Assert.fail("equalsDifferentClass is not implemented");
+
+	${var1} result = null;
+
+	Assert.assertFalse(result.equals("string"));
 }
 
 @Test
 public void equalsSelf() throws Exception {
 	// ${todo} ${user} - unimplemented test equalsSelf
 	Assert.fail("equalsSelf is not implemented");
+
+	${var1} result = null;
+
+	Assert.assertTrue(result.equals(result));
 }
 
 @Test
 public void equalsDifferentData() throws Exception {
 	// ${todo} ${user} - unimplemented test equalsDifferentData
 	Assert.fail("equalsDifferentData is not implemented");
+
+	${var1} result1 = null;
+	${var1} result2 = null;
+
+	Assert.assertFalse(result1.equals(result2));
 }
 
 @Test
 public void equalsSameData() throws Exception {
 	// ${todo} ${user} - unimplemented test equalsSameData
 	Assert.fail("equalsSameData is not implemented");
+
+	${var1} result1 = null;
+	${var1} result2 = null;
+
+	Assert.assertFalse(result1.equals(result2));
+}
+
+@Test
+public void toStringTest() throws Exception {
+	${var1} obj = null;
+
+	String result = obj.toString();
+
+	Assert.assertNotNull(result);
+	Assert.assertTrue(result.contains("name=value"));
 }
 ${cursor}</template></templates>

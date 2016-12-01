@@ -64,3 +64,6 @@ endpoints
 endpoint
 guava
 mockito
+gson
+jackson
+rpacheco
