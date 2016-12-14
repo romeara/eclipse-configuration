@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Inserts equals stub" enabled="true" name="eqs">${:import(javax.annotation.Nullable)}@Override
+public boolean equals(@Nullable Object obj) {
+	boolean result = false;
+
+	if (obj instanceof ${enclosing_type}) {
+		${enclosing_type} compare = (${enclosing_type}) obj;
+
+		// TODO ${user} Auto-generated function stub
+        throw new UnsupportedOperationException("${enclosing_type}.equals is not yet implemented");
+	}
+
+	return result;
+}</template></templates>
