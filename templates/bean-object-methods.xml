@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Inserts hashCode, equals, and toString" enabled="true" name="bean-obj-methods">${:import(javax.annotation.Nullable,java.util.Objects,com.google.common.base.MoreObjects)}@Override
+public int hashCode(){
+	return Objects.hash(${hashfields:enclosed_bean_fields('${getter}', ',${newline}')});
+}
+
+@Override
+public boolean equals(@Nullable Object obj) {
+	boolean result = false;
+
+	if (obj instanceof ${enclosing_type}) {
+		${enclosing_type} compare = (${enclosing_type}) obj;
+
+		result = ${eqfields:enclosed_bean_fields('Objects.equals(compare.${getter}, ${getter})', '${newline}&amp;&amp; ')};
+	}
+
+	return result;
+}
+
+@Override
+public String toString(){
+	return MoreObjects.toStringHelper(getClass()).omitNullValues()
+		${tostrfields:enclosed_bean_fields('.add("${name}", ${getter})', '${newline}')}
+		.toString();
+}</template></templates>

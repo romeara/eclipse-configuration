@@ -27,9 +27,7 @@ public void equalsNull() throws Exception {
 	Assert.assertFalse(result.equals(null));
 }
 
-// This test is specifically for checking the unlikely argument doesn't break the equals implementation
 @Test
-@SuppressWarnings("unlikely-arg-type")
 public void equalsDifferentClass() throws Exception {
 	// TODO ${user} - unimplemented test equalsDifferentClass
 	Assert.fail("equalsDifferentClass is not implemented");
